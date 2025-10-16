@@ -52,7 +52,37 @@ It’s designed to reduce food waste, improve meal planning, and bring order to 
 
 ---
 
-## ⚙️ Installation
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/yourusername/ready-up-recipes.git
+## 🎯 Project Objectives
+
+- To provide a user-friendly system for organizing and storing recipes  
+- To manage ingredient inventory efficiently, keeping track of quantity and availability  
+- To reduce food waste by monitoring expiration dates and low-stock levels  
+- To help users plan meals based on available ingredients  
+- To automate ingredient deductions when recipes are used  
+- To simplify kitchen management for households, culinary students, and small food businesses  
+- To support quick search and filtering of recipes by category or ingredient  
+- To promote sustainable cooking habits through smart inventory tracking  
+- To serve as a learning project that applies database management, front-end, and back-end development concepts
+
+
+## LICENSE
+MIT License
+
+Copyright (c) 2025
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files, to deal  without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of Ready-Up Recipes, and to permit persons to whom the software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the aoftware.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE. 
+
+
