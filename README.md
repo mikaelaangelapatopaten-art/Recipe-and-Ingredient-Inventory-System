@@ -54,3 +54,16 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE. 
 
+## 🎯 Project Objectives
+
+- To provide a user-friendly system for organizing and storing recipes  
+- To manage ingredient inventory efficiently, keeping track of quantity and availability  
+- To reduce food waste by monitoring expiration dates and low-stock levels  
+- To help users plan meals based on available ingredients  
+- To automate ingredient deductions when recipes are used  
+- To simplify kitchen management for households, culinary students, and small food businesses  
+- To support quick search and filtering of recipes by category or ingredient  
+- To promote sustainable cooking habits through smart inventory tracking  
+- To serve as a learning project that applies database management, front-end, and back-end development concepts
+
+
