@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SunnySide Club - Where Every Meal Starts with Sunshine</title>
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --color-primary: #ffbb00; /* Amber 500 (Primary/Accent) */
+            --color-secondary: #FEF3C7; /* Amber 100 (Light Background) */
+            --color-text-dark: #7C2D12; /* Amber 800 (Dark Text/Contrast) */
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--color-secondary); /* Soft, light background */
+        }
+        .text-hero-primary {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Header / Navigation -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-bold tracking-tight text-amber-500">
+                <span class="block">Sunny</span>
+                <span class="block -mt-2">SIDE CLUB</span>
+            </h1>
+            <nav class="hidden md:flex space-x-8 text-lg font-medium">
+                <a href="#home" class="text-gray-600 hover:text-amber-600 transition duration-300">HOME</a>
+                <a href="#about" class="text-gray-600 hover:text-amber-600 transition duration-300">ABOUT US</a>
+                <a href="#recipes" class="text-gray-600 hover:text-amber-600 transition duration-300">CLASSIC RECIPE</a>
+                <a href="#join" class="text-gray-600 hover:text-amber-600 transition duration-300">CONTACT</a>
+            </nav>
+            <div class="md:hidden">
+                <button class="text-gray-600 hover:text-amber-600 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-500">
+                    <!-- Hamburger Icon -->
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section: Full-Width Image -->
+        <section id="home" class="relative h-[60vh] md:h-[80vh] overflow-hidden">
+            <!-- Full-width hero image, replacing the small inset version -->
+            <img 
+                src="https://placehold.co/1400x800/FACC15/7C2D12?text=SUNNY+SIDE+PLATE" 
+                alt="A balanced breakfast plate with chicken breast, toast, boiled egg, tomato, avocado, and broccoli." 
+                class="absolute inset-0 w-full h-full object-cover"
+                style="transform: rotate(0.5deg); transition: transform 0.3s ease-in-out;"
+                onerror="this.onerror=null; this.src='https://placehold.co/1400x800/FACC15/7C2D12?text=SUNNY+SIDE+PLATE';"
+            />
+
+            <!-- Content Overlay -->
+            <div class="absolute inset-0 bg-black bg-opacity-30 flex flex-col justify-center items-center text-center p-4">
+                <p class="text-2xl sm:text-3xl font-semibold text-white mb-4 uppercase tracking-wider text-hero-primary">OUR</p>
+                <h2 class="text-5xl sm:text-7xl md:text-8xl font-extrabold text-yellow-300 leading-tight text-hero-primary">
+                    SUNNY SIDE PLATE
+                </h2>
+                <p class="mt-4 max-w-xl text-xl text-white text-hero-primary">
+                    A balanced breakfast packed with protein, color, and good vibes. Simple. Nutritious. Delicious.
+                </p>
+                <a href="#recipes" class="mt-8 px-8 py-3 bg-amber-500 text-white text-lg font-bold rounded-full shadow-lg hover:bg-amber-600 transition duration-300 uppercase tracking-widest">
+                    VIEW RECIPE ↓
+                </a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="order-2 lg:order-1">
+                    <p class="text-lg font-semibold text-amber-600 uppercase tracking-widest mb-3">ABOUT US</p>
+                    <h3 class="text-4xl font-bold text-gray-800 mb-6">WHERE EVERY MEAL STARTS WITH SUNSHINE</h3>
+                    <p class="text-gray-600 text-xl leading-relaxed mb-6">
+                        At SunnySide Club, we believe every meal should feel like sunshine. We're a joyful space for food lovers to explore recipes, track ingredients, and cook with ease. From wholesome breakfasts to sweet Filipino favorites, our goal is to make your kitchen brighter, happier, and full of flavor.
+                    </p>
+                    <a href="#" class="inline-flex items-center text-xl font-semibold text-orange-600 hover:text-orange-700 transition duration-300">
+                        VIEW CLASSIC FILIPINO RECIPE 
+                        <svg class="w-6 h-6 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </a>
+                </div>
+                <div class="order-1 lg:order-2 rounded-xl overflow-hidden transform hover:scale-[1.02] transition duration-500">
+                    <img src="_assets/Untitled_design-removebg-preview.png" alt="A person happily cooking in a bright kitchen." class="w-full h-full object-fit" onerror="this.onerror=null; this.src='https://placehold.co/600x400/FBBF24/7C2D12?text=Joyful+Cooking';" />
+                </div>
+            </div>
+        </section>
+
+        <!-- What We Offer Section -->
+        <section class="bg-amber-100 py-16 md:py-24">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <h2 class="text-3xl font-bold text-amber-600 mb-10">WHAT WE OFFER?</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Feature 1: Recipes -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                        <div class="text-5xl text-amber-500 mb-4">🍳</div>
+                        <h4 class="text-2xl font-semibold text-gray-800 mb-3">Simple, Wholesome Recipes</h4>
+                        <p class="text-gray-600">
+                            Easy-to-follow recipes you can enjoy any day—made to fit real kitchens and real schedules.
+                        </p>
+                    </div>
+                    <!-- Feature 2: Ingredient Tracking -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                        <div class="text-5xl text-amber-500 mb-4">📋</div>
+                        <h4 class="text-2xl font-semibold text-gray-800 mb-3">Smart Ingredient Tools</h4>
+                        <p class="text-gray-600">
+                            Ingredient tracking to help you stay organized and plan your next dish with ease.
+                        </p>
+                    </div>
+                    <!-- Feature 3: Community -->
+                    <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                        <div class="text-5xl text-amber-500 mb-4">🧑‍🍳</div>
+                        <h4 class="text-2xl font-semibold text-gray-800 mb-3">Friendly Community</h4>
+                        <p class="text-gray-600">
+                            A space where food lovers share tips, ideas, and a collective love for homemade cooking.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recipe Classics Section -->
+        <section id="recipes" class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">OUR FILIPINO CLASSICS</h2>
+
+            <!-- Grid of Recipes -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Recipe Card 1: Taho -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+                    <img src="_assets/taho.png" alt="Classic Taho dessert" class="w-full h-48 object-fill" onerror="this.onerror=null; this.src='https://placehold.co/400x300/F97316/FFFFFF?text=CLASSIC+TAHO';" />
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">CLASSIC TAHO</h4>
+                        <a href="#" class="text-sm font-semibold text-amber-600 border-b-2 border-amber-600 hover:text-orange-700 transition duration-300">VIEW RECIPE</a>
+                    </div>
+                </div>
+
+                <!-- Recipe Card 2: Mango Graham -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+                    <img src="_assets/mango graham.png" alt="Mango Graham Delight dessert" class="w-full h-48 object-fill " onerror="this.onerror=null; this.src='https://placehold.co/400x300/F97316/FFFFFF?text=MANGO+GRAHAM';" />
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">MANGO GRAHAM DELIGHT</h4>
+                        <a href="#" class="text-sm font-semibold text-amber-600 border-b-2 border-amber-600 hover:text-orange-700 transition duration-300">VIEW RECIPE</a>
+                    </div>
+                </div>
+
+                <!-- Recipe Card 3: Ube Cheese Pandesal -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+                    <img src="_assets/ube cheese pandesal.png" alt="Ube Cheese Pandesal Filipino Classic" class="w-full h-48 object-fill" onerror="this.onerror=null; this.src='https://placehold.co/400x300/F97316/FFFFFF?text=UBE+PANDESAL';" />
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">UBE CHEESE PANDESAL</h4>
+                        <a href="#" class="text-sm font-semibold text-amber-600 border-b-2 border-amber-600 hover:text-orange-700 transition duration-300">VIEW RECIPE</a>
+                    </div>
+                </div>
+
+                <!-- Recipe Card 4: Chicken Adobo -->
+                <div class="bg-white rounded-xl shadow-lg overflow-hidden transform hover:shadow-2xl hover:-translate-y-1 transition duration-300">
+                    <img src="_assets/classic chicken adobo.png" alt="Classic Chicken Adobo" class="w-100 h-48 object-cover text-center" onerror="this.onerror=null; this.src='https://placehold.co/400x300/F97316/FFFFFF?text=CHICKEN+ADOBO';" />
+                    <div class="p-6 text-center">
+                        <h4 class="text-xl font-bold text-gray-800 mb-3">CLASSIC CHICKEN ADOBO</h4>
+                        <a href="#" class="text-sm font-semibold text-amber-600 border-b-2 border-amber-600 hover:text-orange-700 transition duration-300">VIEW RECIPE</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action for Sharing -->
+            <div class="mt-16 text-center">
+                <h3 class="text-3xl font-bold text-gray-800 mb-4">COOK, BAKE, AND INSPIRE.</h3>
+                <p class="text-xl text-gray-600 mb-6">Have a recipe that brightens your day? Share it with the club!</p>
+                <a href="#" class="px-10 py-4 bg-amber-500 text-white text-xl font-bold rounded-full shadow-lg hover:bg-amber-600 transition duration-300 uppercase tracking-widest">
+                    SHARE YOUR RECIPE
+                </a>
+            </div>
+        </section>
+
+        <!-- Join the Club Section -->
+        <section id="join" class="bg-amber-500 py-16">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
+                <h2 class="text-4xl font-extrabold mb-4">JOIN THE CLUB!</h2>
+                <p class="text-xl mb-8 opacity-90">
+                    Share your favorite recipes or discover new ones—everyone's welcome at the table.
+                </p>
+                <form class="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+                    <input 
+                        type="email" 
+                        placeholder="Enter your email address" 
+                        class="px-6 py-3 rounded-full text-gray-800 focus:outline-none focus:ring-4 focus:ring-yellow-300 w-full sm:w-80"
+                        aria-label="Email address for newsletter"
+                    >
+                    <button 
+                        type="submit" 
+                        class="px-8 py-3 bg-orange-700 text-white font-bold rounded-full shadow-lg hover:bg-orange-800 transition duration-300 uppercase tracking-widest w-full sm:w-auto"
+                    >
+                        SIGN UP
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-8">
+            <!-- Logo & Motto -->
+            <div>
+                <h4 class="text-2xl font-bold tracking-tight text-amber-500 mb-4">SunnySide Club</h4>
+                <p class="text-sm text-gray-400">Where Every Meal Starts With Sunshine.</p>
+            </div>
+            
+            <!-- Links 1 -->
+            <div>
+                <h5 class="text-lg font-semibold mb-4 text-amber-400">Explore</h5>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li><a href="#home" class="hover:text-white transition duration-200">Home</a></li>
+                    <li><a href="#about" class="hover:text-white transition duration-200">About Us</a></li>
+                    <li><a href="#recipes" class="hover:text-white transition duration-200">Our Recipes</a></li>
+                </ul>
+            </div>
+
+            <!-- Links 2 -->
+            <div>
+                <h5 class="text-lg font-semibold mb-4 text-amber-400">Connect</h5>
+                <ul class="space-y-2 text-gray-400 text-sm">
+                    <li><a href="#join" class="hover:text-white transition duration-200">Join the Club</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">FAQ</a></li>
+                    <li><a href="#" class="hover:text-white transition duration-200">Contact Support</a></li>
+                </ul>
+            </div>
+
+            <!-- Social -->
+            <div>
+                <h5 class="text-lg font-semibold mb-4 text-amber-400">Follow Us</h5>
+                <div class="flex space-x-4 text-gray-400">
+                    <a href="#" class="hover:text-white transition duration-200">FB</a>
+                    <a href="#" class="hover:text-white transition duration-200">IG</a>
+                    <a href="#" class="hover:text-white transition duration-200">TikTok</a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 pt-6 border-t border-gray-700 text-center text-sm text-gray-400">
+            &copy; 2024 SunnySide Club. All rights reserved.
+        </div>
+    </footer>
+
+</body>
+</html>
