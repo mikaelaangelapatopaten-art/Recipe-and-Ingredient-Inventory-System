@@ -64,7 +64,6 @@ It’s designed to reduce food waste, improve meal planning, and bring order to 
 - To promote sustainable cooking habits through smart inventory tracking  
 - To serve as a learning project that applies database management, front-end, and back-end development concepts
 
-please let me stay
 
 ## LICENSE
 MIT License
